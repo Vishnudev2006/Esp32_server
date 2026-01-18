@@ -1,0 +1,25 @@
+# --- Python Specifics ---
+# Ignore the virtual environment (Heavy folder with thousands of library files)
+venv/
+env/
+.env
+
+# Ignore compiled python files (Junk files created when you run scripts)
+__pycache__/
+*.pyc
+
+# --- System Junk ---
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# --- Editor Settings ---
+# Ignore VS Code specific settings (Optional, but keeps repo clean)
+.vscode/
+
+# --- Security ---
+# Ignore files that might contain passwords (if you ever create them)
+secrets.h
+config.py
